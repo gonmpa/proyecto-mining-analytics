@@ -1,0 +1,12 @@
+# Entornos virtuales
+venv/
+__pycache__/
+
+# Datos y Bases de datos
+data/*.csv
+data/*.db
+
+# Archivos temporales de dbt
+dbt_mining/target/
+dbt_mining/dbt_packages/
+dbt_mining/logs/

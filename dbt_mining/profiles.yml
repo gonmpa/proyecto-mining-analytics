@@ -1,0 +1,7 @@
+dbt_mining:
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/gonsa/mi_proyecto_mining/data/mining_analytics.db
+      threads: 4
+  target: dev

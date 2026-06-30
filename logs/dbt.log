@@ -1,0 +1,31 @@
+[0m21:26:44.427375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76abc85cd580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76abca9921b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76abc87dbc20>]}
+
+
+============================== 21:26:44.431846 | e1e980c6-d05a-4604-abe0-28940f1457f6 ==============================
+[0m21:26:44.431846 [info ] [MainThread]: Running with dbt=1.11.11
+[0m21:26:44.432259 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/home/gonsa/.dbt', 'debug': 'False', 'write_json': 'True', 'no_print': 'None', 'printer_width': '80', 'static_parser': 'True', 'target_path': 'None', 'quiet': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'introspect': 'True', 'invocation_command': 'dbt init dbt_mining', 'log_format': 'default', 'version_check': 'True', 'log_path': 'logs', 'cache_selected_only': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True'}
+[0m21:26:44.447064 [info ] [MainThread]: Creating dbt configuration folder at /home/gonsa/.dbt
+[0m21:26:44.449159 [debug] [MainThread]: Starter project path: /home/gonsa/mi_proyecto_mining/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:26:44.454694 [info ] [MainThread]: 
+Your new dbt project "dbt_mining" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:26:44.455082 [info ] [MainThread]: Setting up your profile.
+[0m21:37:19.818916 [info ] [MainThread]: Profile dbt_mining written to /home/gonsa/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m21:37:19.821906 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 661.39294, "process_in_blocks": "118568", "process_kernel_time": 0.255759, "process_mem_max_rss": "127152", "process_out_blocks": "80", "process_user_time": 1.244948}
+[0m21:37:19.822389 [debug] [MainThread]: Command `dbt init` succeeded at 21:37:19.822301 after 661.39 seconds
+[0m21:37:19.822838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76abc7cd28a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76abc8147200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76abc7a17a70>]}
+[0m21:37:19.823332 [debug] [MainThread]: Flushing usage events
+[0m21:37:20.891383 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,6 @@
+polars==1.0.0
+duckdb==1.0.0
+prefect==2.19.0
+dbt-duckdb==1.10.1
+click==8.1.8
+pyarrow
