@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+.git/
+dbt_mining/target/
+dbt_mining/logs/

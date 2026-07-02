@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_inventory
+    description: "Tabla de staging con los datos limpios."
+    columns:
+      - name: mineral_id
+        description: "Identificador único."
+        data_tests:
+          - not_null
+      - name: inventory_year
+        description: "Año del inventario."
+        data_tests:
+          - not_null

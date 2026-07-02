@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  mining-analytics-app:
+    build: .
+    container_name: contenedor_mining_analytics
+    ports:
+      - "8050:8050"
+    volumes:
+      # Compartimos la carpeta data para que el contenedor lea el CSV original
+      # y guarde la base de datos DuckDB de forma persistente
+      - ./data:/home/gonsa/mi_proyecto_mining/data
+    restart: unless-stopped
