@@ -14,6 +14,9 @@ Este proyecto es un pipeline de datos End-to-End diseñado para procesar, transf
 
 Este proyecto está completamente dockerizado para garantizar su reproducibilidad. Para ejecutar el pipeline completo, siga estos pasos:
 
+*## 📂 Sobre el Dataset
+Para garantizar la reproducibilidad automática sin intervención manual (según la rúbrica), el dataset original reducido (`inventory_mining_dataset.csv`) ha sido incluido directamente en este repositorio dentro de la carpeta `/data`. El flujo de Prefect y dbt lo detectará e ingestará automáticamente al levantar los contenedores.
+
 1. Clone este repositorio.
 2. Abra una terminal en la raíz del proyecto.
 3. Ejecute el siguiente comando:
